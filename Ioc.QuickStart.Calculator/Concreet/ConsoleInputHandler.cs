@@ -3,7 +3,7 @@ using Ioc.QuickStart.Interfaces;
 
 namespace Ioc.QuickStart.Concreet
 {
-    internal class ConsoleInputProvider : IInputProvider
+    public class ConsoleInputProvider : IInputProvider
     {
         public string GetInput()
         {

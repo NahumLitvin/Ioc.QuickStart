@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
+    <Compile Include="Concreet\Calculator.cs" />
     <Compile Include="Concreet\ConsoleInputHandler.cs" />
     <Compile Include="Concreet\ConsoleOutputHandler.cs" />
     <Compile Include="Concreet\ConsoleParseHandler.cs" />
@@ -48,6 +48,8 @@
     <Compile Include="Interfaces\IMathProvider.cs" />
     <Compile Include="Interfaces\IOutputHandler.cs" />
     <Compile Include="Interfaces\IParseHandler.cs" />
+    <Compile Include="Concreet\MongoOutputProvider.cs" />
+    <Compile Include="Interfaces\MongoOutputProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

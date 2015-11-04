@@ -1,6 +1,6 @@
 ﻿namespace Ioc.QuickStart.Interfaces
 {
-    internal interface IOutputProvider
+    public interface IOutputProvider
     {
         void OutPut(object sum);
     }

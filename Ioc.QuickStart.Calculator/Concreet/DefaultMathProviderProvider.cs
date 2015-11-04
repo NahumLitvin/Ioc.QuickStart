@@ -3,7 +3,7 @@ using Ioc.QuickStart.Interfaces;
 
 namespace Ioc.QuickStart.Concreet
 {
-    internal class DefaultMathProviderProvider : IMathProvider
+    public class DefaultMathProviderProvider : IMathProvider
     {
         public decimal Calculate(string symbol, decimal x, decimal y)
         {

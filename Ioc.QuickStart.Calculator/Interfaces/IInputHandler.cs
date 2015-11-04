@@ -1,6 +1,6 @@
 ﻿namespace Ioc.QuickStart.Interfaces
 {
-    internal interface IInputProvider
+    public interface IInputProvider
     {
         string GetInput();
     }

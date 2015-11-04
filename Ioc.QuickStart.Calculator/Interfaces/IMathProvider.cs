@@ -1,6 +1,6 @@
 namespace Ioc.QuickStart.Interfaces
 {
-    internal interface IMathProvider
+    public interface IMathProvider
     {
         decimal Calculate(string symbol, decimal x, decimal y);
     }
