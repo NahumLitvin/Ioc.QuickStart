@@ -1,6 +1,7 @@
 ﻿using System;
 using Ioc.QuickStart.Concreet;
 using Ioc.QuickStart.Interfaces;
+using Ioc.QuickStart.MongoDAL;
 
 namespace Ioc.QuickStart
 {
@@ -8,8 +9,8 @@ namespace Ioc.QuickStart
     {
         static void Main(string[] args)
         {
-            var calc = new Calculator(new ConsoleInputProvider(),
-                new MongoOutputProvider(), 
+            var calc = new Calculator(new MongoInputProvider(new MongoProvider("localhost:\\mongo")), 
+                new MongoOutputProvider(new MongoProvider("localhost:\\mongo")), 
                 new ConsoleParseProvider(),
                 new DefaultMathProviderProvider()
                 );
