@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioc.QuickStart", "Ioc.QuickStart\Ioc.QuickStart.csproj", "{994B6FBA-9930-470D-A77C-6698DF20783F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioc.QuickStart.Calculator", "Ioc.QuickStart.Calculator\Ioc.QuickStart.Calculator.csproj", "{C5D15332-1971-4D5D-B4C5-AD4E4751522C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{994B6FBA-9930-470D-A77C-6698DF20783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{994B6FBA-9930-470D-A77C-6698DF20783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{994B6FBA-9930-470D-A77C-6698DF20783F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5D15332-1971-4D5D-B4C5-AD4E4751522C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D15332-1971-4D5D-B4C5-AD4E4751522C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D15332-1971-4D5D-B4C5-AD4E4751522C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D15332-1971-4D5D-B4C5-AD4E4751522C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

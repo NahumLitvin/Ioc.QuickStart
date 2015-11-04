@@ -1,17 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ioc.QuickStart
 {
-    static class Calculator
+    public class Calculator
     {
-        static void Main(string[] args)
+        public void MainLoop()
         {
-            string input="";
+            string input = "";
             decimal x;
             string symbol;
             decimal y;
@@ -20,10 +15,11 @@ namespace Ioc.QuickStart
 
                 try
                 {
-                input = GetInput(input);
-                ParseInput(out x, input, out symbol, out y);
-                decimal sum = Calculate(symbol, x, y);
-                Console.WriteLine(sum);
+                    input = GetInput();
+                    ParseInput(out x, input, out symbol, out y);
+                    decimal sum = Calculate(symbol, x, y);
+                    Console.WriteLine("=" + sum);
+                    
                 }
                 catch
                 {
@@ -31,11 +27,6 @@ namespace Ioc.QuickStart
                 }
 
             } while (input != "exit");
-        }
-
-        private static void PrintOutput(decimal sum)
-        {
-            Console.WriteLine(sum);
         }
 
         private static decimal Calculate(string symbol, decimal x, decimal y)
@@ -50,10 +41,10 @@ namespace Ioc.QuickStart
                     sum = x - y;
                     break;
                 case "/":
-                    sum = x/y;
+                    sum = x / y;
                     break;
                 case "*":
-                    sum = x*y;
+                    sum = x * y;
                     break;
                 default:
                     throw new InvalidOperationException();
@@ -64,14 +55,14 @@ namespace Ioc.QuickStart
         private static void ParseInput(out decimal x, string input, out string symbol, out decimal y)
         {
             string[] split = input.Split(' ');
-            x = decimal.Parse(split[0]);
+            x = Decimal.Parse(split[0]);
             symbol = split[1];
-            y = decimal.Parse(split[2]);
+            y = Decimal.Parse(split[2]);
         }
 
-        private static string GetInput(string input)
+        private static string GetInput()
         {
-            input = Console.ReadLine();
+            string input = Console.ReadLine();
             return input;
         }
     }

@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Ioc.QuickStart")]
+[assembly: AssemblyTitle("Ioc.QuickStart.Calculator")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Ioc.QuickStart")]
+[assembly: AssemblyProduct("Ioc.QuickStart.Calculator")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("dbb67df8-acb2-441c-b42b-1bfeb639073d")]
+[assembly: Guid("98afc812-2457-475d-9ae9-c0da522b9c76")]
 
 // Version information for an assembly consists of the following four values:
 //
