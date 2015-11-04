@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SimpleInjector, Version=3.1.0.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.3.1.0\lib\net45\SimpleInjector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,11 +51,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ioc.QuickStart.Calculator\Ioc.QuickStart.Calculator.csproj">
       <Project>{c5d15332-1971-4d5d-b4c5-ad4e4751522c}</Project>
       <Name>Ioc.QuickStart.Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ioc.QuickStart.MongoDAL\Ioc.QuickStart.MongoDAL.csproj">
+      <Project>{4b40e83e-9554-4ec2-ad4b-d4d477fa3601}</Project>
+      <Name>Ioc.QuickStart.MongoDAL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

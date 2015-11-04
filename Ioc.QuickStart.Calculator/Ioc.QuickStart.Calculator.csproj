@@ -46,10 +46,9 @@
     <Compile Include="Concreet\DefaultMathProviderProvider.cs" />
     <Compile Include="Interfaces\IInputHandler.cs" />
     <Compile Include="Interfaces\IMathProvider.cs" />
+    <Compile Include="Interfaces\IMongoProvider.cs" />
     <Compile Include="Interfaces\IOutputHandler.cs" />
     <Compile Include="Interfaces\IParseHandler.cs" />
-    <Compile Include="Concreet\MongoOutputProvider.cs" />
-    <Compile Include="Interfaces\MongoOutputProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

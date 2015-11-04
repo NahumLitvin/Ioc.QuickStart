@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioc.QuickStart", "Ioc.Quick
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioc.QuickStart.Calculator", "Ioc.QuickStart.Calculator\Ioc.QuickStart.Calculator.csproj", "{C5D15332-1971-4D5D-B4C5-AD4E4751522C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ioc.QuickStart.MongoDAL", "Ioc.QuickStart.MongoDAL\Ioc.QuickStart.MongoDAL.csproj", "{4B40E83E-9554-4EC2-AD4B-D4D477FA3601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C5D15332-1971-4D5D-B4C5-AD4E4751522C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5D15332-1971-4D5D-B4C5-AD4E4751522C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5D15332-1971-4D5D-B4C5-AD4E4751522C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B40E83E-9554-4EC2-AD4B-D4D477FA3601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B40E83E-9554-4EC2-AD4B-D4D477FA3601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B40E83E-9554-4EC2-AD4B-D4D477FA3601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B40E83E-9554-4EC2-AD4B-D4D477FA3601}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

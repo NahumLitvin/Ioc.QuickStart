@@ -1,13 +1,21 @@
 ﻿using Ioc.QuickStart.Interfaces;
 
-namespace Ioc.QuickStart.Concreet
+namespace Ioc.QuickStart.MongoDAL
 {
     public class MongoInputProvider : IInputProvider
     {
+        private readonly IMongoProvider _provider;
+
+        public MongoInputProvider(IMongoProvider provider)
+        {
+            _provider = provider;
+        }
 
         public string GetInput()
         {
-            throw new System.NotImplementedException();
+            _provider.DoStuff();
         }
     }
+
+
 }
